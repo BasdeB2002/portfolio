@@ -1,110 +1,557 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bas de Best | Research Portfolio</title>
-  <meta name="description" content="Research portfolio of Bas de Best — biotechnology, pharmacometrics, computational drug discovery and quantitative biology.">
+
+  <title>Bas de Best | Biotechnology & Computational Drug Discovery</title>
+
+  <meta name="description" content="Portfolio of Bas de Best — biotechnology, pharmacometrics, computational drug discovery and quantitative biology.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <!-- NAVIGATION -->
+
   <header class="site-header">
-    <nav class="nav container">
+    <div class="container nav">
       <a class="brand" href="#top">Bas de Best<span>.</span></a>
-      <div class="navlinks">
-        <a href="#about">About</a><a href="#work">Research</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
-      </div>
-      <a class="nav-cta" href="#contact">Get in touch ↗</a>
-    </nav>
+
+```
+  <nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+  </nav>
+
+  <a class="nav-contact" href="#contact">Get in touch <span>↗</span></a>
+</div>
+```
+
   </header>
 
   <main id="top">
-    <section class="hero container">
-      <div class="hero-copy">
-        <p class="kicker">Research portfolio · Amsterdam, NL</p>
-        <h1>Biology,<br><em>data</em> & discovery.</h1>
-        <p class="intro">I am a biotechnology graduate and current MSc student in Computer-Aided Drug Discovery Science at Vrije Universiteit Amsterdam. I work at the intersection of experimental biology, quantitative modelling and computational analysis.</p>
-        <div class="hero-actions">
-          <a class="button button-dark" href="#work">View selected work <span>↓</span></a>
-          <a class="text-link" href="https://www.linkedin.com/in/bas-de-best-071a56201/" target="_blank" rel="noopener">LinkedIn ↗</a>
-        </div>
+
+```
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div class="hero-content">
+      <p class="eyebrow">Biotechnology · Computational drug discovery · Amsterdam</p>
+
+      <h1>
+        Biology,<br>
+        <em>modelling</em> &<br>
+        discovery.
+      </h1>
+
+      <p class="hero-intro">
+        Biotechnology graduate specialising in computational approaches to drug discovery,
+        quantitative biology and pharmacometrics.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="button button-dark" href="#research">
+          Explore my work <span>↓</span>
+        </a>
+
+        <a class="button-link"
+           href="https://www.linkedin.com/in/bas-de-best-071a56201/"
+           target="_blank"
+           rel="noopener">
+          LinkedIn ↗
+        </a>
       </div>
-      <aside class="hero-note">
-        <div class="note-top"><span>Currently</span><span class="pulse"></span></div>
-        <h2>MSc Computer-Aided<br>Drug Discovery Science</h2>
+    </div>
+
+
+    <aside class="profile-card">
+
+      <div class="card-top">
+        <span>Currently</span>
+        <span class="status">
+          <span class="status-dot"></span>
+          Finishing November 2026
+        </span>
+      </div>
+
+      <div class="card-main">
+        <p class="card-label">MSc</p>
+        <h2>Computer-Aided<br>Drug Discovery Science</h2>
         <p>Vrije Universiteit Amsterdam</p>
-        <div class="note-line"></div>
-        <div class="note-meta"><span>Focus</span><strong>Pharmacometrics · PK/PD · Quantitative biology</strong></div>
-      </aside>
-    </section>
+      </div>
 
-    <section id="about" class="section container about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="section-content">
-        <h2>A scientist who enjoys working across disciplines.</h2>
-        <div class="about-text">
-          <p>My background combines biotechnology, molecular biology and programming. I completed my BSc in Biotechnology at Wageningen University & Research in two years and am currently specialising in computational approaches to drug discovery.</p>
-          <p>Along the way, I have worked with protein biophysics and microscopy, molecular and cellular biology, pharmacometric modelling and scientific programming. I am particularly interested in research where biological questions benefit from both experimental and quantitative approaches.</p>
+      <div class="card-bottom">
+        <div>
+          <span>Focus</span>
+          <strong>Pharmacometrics · PK/PD</strong>
         </div>
-        <div class="education">
-          <div class="education-row"><span>2025 — present</span><div><strong>MSc Computer-Aided Drug Discovery Science</strong><small>Vrije Universiteit Amsterdam</small></div></div>
-          <div class="education-row"><span>2022 — 2024</span><div><strong>BSc Biotechnology</strong><small>Wageningen University & Research · completed in 2 years</small></div></div>
-          <div class="education-row"><span>2024 — 2025</span><div><strong>Biomedical Sciences coursework</strong><small>University of Amsterdam · Therapeutic & Developmental Biology</small></div></div>
-          <div class="education-row"><span>2020 — 2021</span><div><strong>Computer Science coursework</strong><small>Vrije Universiteit Amsterdam</small></div></div>
+
+        <div>
+          <span>Next step</span>
+          <strong>Open to research opportunities</strong>
         </div>
       </div>
-    </section>
 
-    <section id="work" class="section container work">
-      <div class="section-label">02 / SELECTED WORK</div>
-      <div class="section-content">
-        <div class="work-heading"><h2>Research that moves between models, molecules and data.</h2><p>Selected projects from my academic work. Each project reflects a different part of my scientific background.</p></div>
-        <div class="project-list">
-          <a class="project featured" href="projects/tmz.html">
-            <div class="project-index">01</div>
-            <div class="project-main"><div class="project-tags"><span>Pharmacometrics</span><span>R</span><span>nlmixr2</span><span>NONMEM</span></div><h3>Model-informed precision dosing of temozolomide</h3><p>Population PK/PD modelling, simulation and power analysis to investigate temozolomide brain exposure in glioblastoma.</p></div>
-            <div class="project-arrow">↗</div>
-          </a>
-          <a class="project" href="projects/alpha-synuclein.html">
-            <div class="project-index">02</div>
-            <div class="project-main"><div class="project-tags"><span>Protein biophysics</span><span>Imaging</span><span>Experimental research</span></div><h3>α-synuclein liquid-liquid phase separation</h3><p>Six months of experimental research using FRAP, confocal microscopy, AFM, FTIR and circular dichroism to investigate protein phase behaviour.</p></div>
-            <div class="project-arrow">↗</div>
-          </a>
-          <div class="project project-static">
-            <div class="project-index">03</div>
-            <div class="project-main"><div class="project-tags"><span>Stem cells</span><span>Cell biology</span></div><h3>Stem-cell research internship</h3><p>Research experience at Sanquin as part of Biomedical Sciences coursework, building practical experience in a translational research environment.</p></div>
+    </aside>
+
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container section-grid">
+
+    <div class="section-label">
+      <span>01</span>
+      ABOUT
+    </div>
+
+    <div class="section-body">
+
+      <div class="about-heading">
+        <h2>
+          A scientist working across
+          <em>biology and quantitative science.</em>
+        </h2>
+      </div>
+
+      <div class="about-columns">
+
+        <div>
+          <p>
+            My background combines biotechnology, molecular biology, experimental
+            research and computational analysis. I completed my BSc in Biotechnology
+            at Wageningen University & Research in two years and am currently completing
+            an MSc in Computer-Aided Drug Discovery Science at Vrije Universiteit Amsterdam.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            I particularly enjoy research where biological questions can be approached
+            from multiple angles — combining experimental data with statistical analysis,
+            mathematical modelling and computational methods to understand complex systems.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="interest-grid">
+
+        <div class="interest">
+          <span>01</span>
+          <h3>Pharmacometrics</h3>
+          <p>PK/PD modelling, population analysis, simulation and model-informed precision dosing.</p>
+        </div>
+
+        <div class="interest">
+          <span>02</span>
+          <h3>Computational biology</h3>
+          <p>Scientific programming, quantitative analysis, molecular data and reproducible workflows.</p>
+        </div>
+
+        <div class="interest">
+          <span>03</span>
+          <h3>Experimental biology</h3>
+          <p>Protein biophysics, microscopy, cell biology and hands-on laboratory research.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- RESEARCH -->
+<section id="research" class="section research-section">
+  <div class="container section-grid">
+
+    <div class="section-label">
+      <span>02</span>
+      SELECTED RESEARCH
+    </div>
+
+    <div class="section-body">
+
+      <div class="section-title-row">
+        <div>
+          <h2>Research projects.</h2>
+        </div>
+
+        <p>
+          A selection of projects spanning pharmacometrics,
+          protein biophysics and experimental biology.
+        </p>
+      </div>
+
+
+      <!-- PROJECT 1 -->
+      <article class="research-card featured">
+
+        <div class="research-number">01</div>
+
+        <div class="research-content">
+
+          <div class="tags">
+            <span>Pharmacometrics</span>
+            <span>PK/PD</span>
+            <span>R</span>
+            <span>NONMEM</span>
+          </div>
+
+          <h3>Model-informed precision dosing in oncology</h3>
+
+          <p class="research-description">
+            Master research project investigating quantitative approaches to
+            model-informed precision dosing in oncology, using clinical drug
+            concentration data, population pharmacokinetic modelling and simulation.
+          </p>
+
+          <div class="research-details">
+
+            <div>
+              <span>Application</span>
+              <strong>Temozolomide · glioblastoma</strong>
+            </div>
+
+            <div>
+              <span>Methods</span>
+              <strong>Population PK · simulation · trial design</strong>
+            </div>
+
+            <div>
+              <span>Tools</span>
+              <strong>R · nlmixr2 · rxode2 · NONMEM</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="research-arrow">↗</div>
+
+      </article>
+
+
+      <!-- PROJECT 2 -->
+      <article class="research-card">
+
+        <div class="research-number">02</div>
+
+        <div class="research-content">
+
+          <div class="tags">
+            <span>Protein biophysics</span>
+            <span>Imaging</span>
+            <span>Experimental research</span>
+          </div>
+
+          <h3>α-synuclein liquid-liquid phase separation</h3>
+
+          <p class="research-description">
+            Six months of experimental research investigating the induction and
+            properties of α-synuclein liquid-liquid phase separation using complementary
+            imaging and biophysical techniques.
+          </p>
+
+          <div class="research-details">
+
+            <div>
+              <span>Techniques</span>
+              <strong>FRAP · confocal microscopy</strong>
+            </div>
+
+            <div>
+              <span>Characterisation</span>
+              <strong>AFM · FTIR · circular dichroism</strong>
+            </div>
+
+            <div>
+              <span>Experience</span>
+              <strong>Experimental planning · data analysis</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="research-arrow">↗</div>
+
+      </article>
+
+
+      <!-- PROJECT 3 -->
+      <article class="research-card">
+
+        <div class="research-number">03</div>
+
+        <div class="research-content">
+
+          <div class="tags">
+            <span>Stem cells</span>
+            <span>Cell biology</span>
+            <span>Research internship</span>
+          </div>
+
+          <h3>Stem-cell research</h3>
+
+          <p class="research-description">
+            Research internship at Sanquin, providing practical experience in
+            cellular research and working within a translational biomedical research environment.
+          </p>
+
+          <div class="research-details">
+
+            <div>
+              <span>Area</span>
+              <strong>Stem-cell biology</strong>
+            </div>
+
+            <div>
+              <span>Environment</span>
+              <strong>Translational research</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="research-arrow">↗</div>
+
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <div class="container section-grid">
+
+    <div class="section-label">
+      <span>03</span>
+      EDUCATION
+    </div>
+
+    <div class="section-body">
+
+      <h2>Academic background.</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item current">
+          <div class="timeline-date">2025 — 2026</div>
+
+          <div class="timeline-content">
+            <span class="timeline-status">Current · finishing November 2026</span>
+            <h3>MSc Computer-Aided Drug Discovery Science</h3>
+            <p>Vrije Universiteit Amsterdam</p>
+            <small>
+              Focus on pharmacometrics, PK/PD, computational drug discovery,
+              quantitative biology and scientific programming.
+            </small>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section id="skills" class="section container skills-section">
-      <div class="section-label">03 / TOOLBOX</div>
-      <div class="section-content">
-        <h2>Methods and tools.</h2>
-        <div class="skills-grid">
-          <div class="skill-group"><span class="skill-number">01</span><h3>Programming & analysis</h3><p>Python · R · SPSS · KNIME · C/C++ · C# · JavaScript</p></div>
-          <div class="skill-group"><span class="skill-number">02</span><h3>Pharmacometrics</h3><p>nlmixr2 · NONMEM · PK/PD modelling · simulation · trial design · power analysis</p></div>
-          <div class="skill-group"><span class="skill-number">03</span><h3>Imaging & biophysics</h3><p>Confocal microscopy · FRAP · AFM · FTIR · circular dichroism</p></div>
-          <div class="skill-group"><span class="skill-number">04</span><h3>Scientific data</h3><p>Molecular descriptors · PCA · fingerprint analysis · biological datasets · statistical analysis</p></div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2022 — 2024</div>
+
+          <div class="timeline-content">
+            <h3>BSc Biotechnology</h3>
+            <p>Wageningen University & Research</p>
+            <small>
+              Completed in two years. Thesis research focused on
+              α-synuclein liquid-liquid phase separation.
+            </small>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <section class="section container languages">
-      <div class="section-label">04 / LANGUAGES</div>
-      <div class="section-content language-content"><div><h2>Working comfortably in Dutch and English.</h2></div><div class="language-items"><div><strong>Dutch</strong><span>Native speaker</span></div><div><strong>English</strong><span>C2 proficiency</span></div></div></div>
-    </section>
 
-    <section id="contact" class="contact-section">
-      <div class="container contact-inner">
-        <p class="kicker">05 / CONTACT</p>
-        <h2>Let's work on<br><em>interesting science.</em></h2>
-        <p>I am interested in opportunities in biotechnology, computational biology, pharmacometrics, drug discovery and data-driven biomedical research.</p>
-        <div class="contact-links"><a href="https://www.linkedin.com/in/bas-de-best-071a56201/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/basdeb2002" target="_blank" rel="noopener">GitHub ↗</a></div>
+        <div class="timeline-item">
+          <div class="timeline-date">2024 — 2025</div>
+
+          <div class="timeline-content">
+            <h3>Biomedical Sciences coursework</h3>
+            <p>University of Amsterdam</p>
+            <small>
+              Coursework in therapeutic and developmental biology alongside
+              practical research experience.
+            </small>
+          </div>
+        </div>
+
+
+        <div class="timeline-item">
+          <div class="timeline-date">2020 — 2021</div>
+
+          <div class="timeline-content">
+            <h3>Computer Science coursework</h3>
+            <p>Vrije Universiteit Amsterdam</p>
+          </div>
+        </div>
+
       </div>
-    </section>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section skills-section">
+  <div class="container section-grid">
+
+    <div class="section-label">
+      <span>04</span>
+      TOOLBOX
+    </div>
+
+    <div class="section-body">
+
+      <h2>Methods, tools & techniques.</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <span class="skill-number">01</span>
+          <h3>Programming & analysis</h3>
+          <p>
+            Python · R · SPSS · KNIME · C/C++ · C# · JavaScript
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-number">02</span>
+          <h3>Pharmacometrics</h3>
+          <p>
+            nlmixr2 · rxode2 · NONMEM · PK/PD modelling · simulation ·
+            trial design · power analysis
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-number">03</span>
+          <h3>Computational chemistry</h3>
+          <p>
+            Molecular descriptors · molecular fingerprints · PCA ·
+            RDKit · cheminformatics workflows
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-number">04</span>
+          <h3>Experimental biology</h3>
+          <p>
+            Confocal microscopy · FRAP · AFM · FTIR · circular dichroism ·
+            molecular and cellular biology
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- LANGUAGES -->
+<section class="section language-section">
+  <div class="container section-grid">
+
+    <div class="section-label">
+      <span>05</span>
+      LANGUAGES
+    </div>
+
+    <div class="section-body">
+
+      <div class="language-grid">
+
+        <div>
+          <h2>Working comfortably in Dutch and English.</h2>
+        </div>
+
+        <div class="language-list">
+
+          <div class="language-row">
+            <strong>Dutch</strong>
+            <span>Native speaker</span>
+          </div>
+
+          <div class="language-row">
+            <strong>English</strong>
+            <span>C2 proficiency</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+
+  <div class="container contact-inner">
+
+    <p class="eyebrow">06 / CONTACT</p>
+
+    <h2>
+      Let's work on<br>
+      <em>interesting science.</em>
+    </h2>
+
+    <p class="contact-description">
+      I am interested in opportunities in biotechnology, computational biology,
+      pharmacometrics, drug discovery and data-driven biomedical research.
+    </p>
+
+    <div class="contact-buttons">
+
+      <a href="https://www.linkedin.com/in/bas-de-best-071a56201/"
+         target="_blank"
+         rel="noopener">
+        LinkedIn ↗
+      </a>
+
+      <a href="https://github.com/basdeb2002"
+         target="_blank"
+         rel="noopener">
+        GitHub ↗
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+```
+
   </main>
-  <footer class="container"><span>© 2026 Bas de Best</span><span>Amsterdam · The Netherlands</span></footer>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Bas de Best</span>
+      <span>Amsterdam · The Netherlands</span>
+    </div>
+  </footer>
+
 </body>
 </html>
